@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3687f97-f543-4efb-b8c3-25cbc9d4248a" name="Changes" comment="" />
+    <list default="true" id="096eebd1-c2bc-4080-9fff-fa1ddcc90403" name="Changes" comment="listo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/CandidatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/CandidatoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/ClienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/UsuarioController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/VacanteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/primerApi/controller/VacanteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/exception/ClienteNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/model/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/repository/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/service/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/primerApi/service/UsuarioService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/primerApi/service/VacanteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/primerApi/service/VacanteService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,8 +29,12 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -29,79 +47,125 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2HDpyYPYR6CgP5yRTlwRbTPKPAy" />
+  <component name="ProjectId" id="2SQh0phqgw1vble0tEyY7hM0tJF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/Desktop/CURSO JAVA/primerApi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;49fae79bc2000b74a4b0fe062dd5fc5a&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Usuario/Desktop/CURSO JAVA/primerApi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "spring.configuration.checksum": "28bf4c7f6d0da43573a4ccccae32fe43",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "oracle"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
       <recent name="com.example.primerApi.service" />
-      <recent name="com.example.primerApi.model" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.primerApi.controller" />
       <recent name="com.example.primerApi.repository" />
+      <recent name="com.example.primerApi.exception" />
+      <recent name="com.example.primerApi.model" />
+      <recent name="com.example.primerApi.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IRMApplication">
-    <configuration name="IRMApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.primerApi.IRMApplication" />
-      <module name="primerApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.primerApi.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager">
+    <configuration name="IRM2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="IRM-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.primerApi.IRM2Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IRMApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
-      <module name="primerApi" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.primerApi.IRMApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.IRMApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c3687f97-f543-4efb-b8c3-25cbc9d4248a" name="Changes" comment="" />
-      <created>1667829786715</created>
+      <changelist id="096eebd1-c2bc-4080-9fff-fa1ddcc90403" name="Changes" comment="" />
+      <created>1689084492335</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667829786715</updated>
-      <workItem from="1690294949905" duration="3185000" />
-      <workItem from="1690376392821" duration="3024000" />
-      <workItem from="1690392801135" duration="36000" />
+      <updated>1689084492335</updated>
+      <workItem from="1689597481322" duration="7537000" />
+      <workItem from="1689617457887" duration="70000" />
+      <workItem from="1689684088321" duration="4045000" />
+      <workItem from="1689689876954" duration="985000" />
+      <workItem from="1689703567284" duration="50000" />
+      <workItem from="1689704185789" duration="368000" />
+      <workItem from="1689774124522" duration="5898000" />
+      <workItem from="1689780205519" duration="41000" />
+      <workItem from="1689780288431" duration="1550000" />
+      <workItem from="1690293895678" duration="734000" />
+      <workItem from="1690295888826" duration="573000" />
+      <workItem from="1690807501041" duration="4712000" />
+      <workItem from="1690893859181" duration="855000" />
     </task>
+    <task id="LOCAL-00001" summary="listo">
+      <option name="closed" value="true" />
+      <created>1689781228528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689781228528</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="listo" />
+    <option name="LAST_COMMIT_MESSAGE" value="listo" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLSyntaxErrorException" package="java.sql" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
